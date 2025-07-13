@@ -1,0 +1,75 @@
+/* Horror UI by MadeByAkshar — IG: @ig.madebyakshar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skull-wrapper {
+  position: relative;
+  font-size: 250px;
+  text-shadow: 0 0 35px rgba(255, 255, 255, 0.6); /*Change The Skull Background Color */
+}
+
+.skull {
+  z-index: 1;
+  display: block;
+  filter: drop-shadow(0 0 15px rgb(253, 233, 233));
+}
+
+.eye {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 5px rgb(250, 117, 117)); /*Change The Eye Background Glow Color*/
+  border-radius: 50%;
+  z-index: 1;
+  transition: 0.15s;
+}
+
+.left-eye {
+  left: 30%;
+  top: 45%;
+}
+
+.right-eye {
+  right: 30%;
+  top: 45%;
+}
+
+.brand-text {
+  position: absolute;
+  font-size: 100px;
+  filter: drop-shadow(0 0 15px rgb(255, 255, 255));
+  opacity: .170;
+  user-select: none;
+  pointer-events: none;
+}
+
+.ig-handle {
+  position: absolute;
+  bottom: 20px;
+  right: 525px;
+  font-size: 1.50rem;
+  color: rgb(255, 253, 253);
+  font-style: italic;
+  user-select: none;
+}
