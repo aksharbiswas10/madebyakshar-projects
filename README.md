@@ -1,2 +1,4 @@
 # madebyakshar-skull
-“Visual experiments &amp; cursor effects for Reels, Gen Z aesthetic, and frontend showcases.”
+Visual experiments &amp; cursor effects for Reels, Gen Z aesthetic, and frontend showcases.
+Download From Here
+
