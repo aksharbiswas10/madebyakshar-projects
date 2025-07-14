@@ -26,7 +26,7 @@ https://madebyakshar.netlify.app/
 ## 📁 How to Use
 1. **Donwload Or Copy The Files , Then Paste The Whole Thing In A Folder.**
    
-2. **Make YOu Have A A Music Named music.mp3 Or Download The Music Given In The Repo**
+2. **Make YOu Have  A Music Named "intense-piano.mp3" Or Download The Music Given In The Repo**
    
 3. **Clone the repo**  
 ```bash
