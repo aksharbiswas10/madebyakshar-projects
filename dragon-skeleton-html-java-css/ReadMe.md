@@ -30,4 +30,4 @@ https://madebyakshar.netlify.app/
    
 3. **Clone the repo**  
 ```bash
-git clone [https://github.com/aksharbiswas10/madebyakshar-projects/new/main/dragon-skeleton-html-java-css] 
+git clone https://github.com/aksharbiswas10/madebyakshar-projects/new/main/dragon-skeleton-html-java-css 
