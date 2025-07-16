@@ -1,0 +1,79 @@
+<!--
+  🔥 Project: Login Page – by MadeByAkshar
+  🌐 Website: https://madebyakshar.netlify.app
+  📷 Instagram: https://instagram.com/ig.madebyakshar
+  💻 GitHub: https://github.com/MadeByAkshar
+
+  License: MIT License
+  Description:
+  A heavenly login/launcher experience featuring animated transitions, calm background, click sound, and floating stars.
+
+  👋 Enjoyed this? Visit our website or follow us on Instagram for free tools, UI kits, and more creative projects!
+  © 2025 MadeByAkshar. All rights reserved.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixel Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🔊 Background Music & Click Sound -->
+  <audio id="bg-music" src="calm_bg.mp3" autoplay loop></audio>
+  <!-- Click Sound and Change If you Want -->
+  <audio id="click-sound" src="spell.mp3" preload="auto"></audio>
+
+  <!-- 🎵 Music Toggle Button -->
+  <button id="music-toggle">🔊</button>
+
+  <!-- ✨ Star Background -->
+  <canvas id="star-canvas"></canvas>
+
+  <!-- 🚀 Launcher Screen -->
+  <div class="launcher-screen" id="launcher">
+    <h1>Welcome to Pixel Login Page</h1>
+    <button class="main-btn" id="login-btn">Login</button>
+    <button class="sub-btn" id="signup-btn">Sign Up</button>
+  </div>
+
+  <!-- 🔐 Login Form -->
+  <div class="form-container hidden" id="login-form">
+    <h2>🔒 Login</h2>
+    <input type="text" placeholder="👤 Username" />
+    <input type="password" placeholder="🔑 Password" />
+    <label class="checkbox-wrap">
+      <input type="checkbox" />
+      <span class="checkmark"></span> Remember me
+    </label>
+    <button class="submit-btn">Enter</button>
+    <button class="back-btn">←Back</button>
+  </div>
+
+  <!-- 📝 Sign Up Form -->
+  <div class="form-container hidden" id="signup-form">
+    <h2>📝 Sign Up</h2>
+    <input type="email" placeholder="📧 Email" />
+    <input type="text" placeholder="👤 Username" />
+    <input type="password" placeholder="🔑 Password" />
+    <button class="submit-btn">Register</button>
+    <button class="back-btn">← Back</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!--
+  🔥 Project: Login Page – by MadeByAkshar
+  🌐 Website: https://madebyakshar.netlify.app
+  📷 Instagram: https://instagram.com/ig.madebyakshar
+  💻 GitHub: https://github.com/MadeByAkshar
+
+  License: MIT License
+  Description:
+  A heavenly login/launcher experience featuring animated transitions, calm background, click sound, and floating stars.
+
+  👋 Enjoyed this? Visit our website or follow us on Instagram for free tools, UI kits, and more creative projects!
+  © 2025 MadeByAkshar. All rights reserved.
+-->
